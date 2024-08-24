@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Html5Qrcode } from "html5-qrcode";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-function NIDForm() {
+function BarcodeScanner() {
   const [scannedData, setScannedData] = useState("");
   const [error, setError] = useState("");
   const [userInfo, setUserInfo] = useState({
@@ -165,4 +165,4 @@ function NIDForm() {
   );
 }
 
-export default NIDForm;
+export default BarcodeScanner;
