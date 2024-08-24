@@ -10,16 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@zxing/library": "^0.21.3",
     "bootstrap": "^5.3.3",
     "html5-qrcode": "^2.3.8",
-    "jsbarcode": "^3.11.6",
     "lodash": "^4.17.21",
     "opencv.js": "^1.2.1",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-image-file-resizer": "^0.4.8",
-    "tesseract.js": "^2.1.1"
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.8.0",
